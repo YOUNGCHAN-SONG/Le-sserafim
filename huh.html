@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>HUH YUNJIN</title>
+  <link href="huh.css" rel="stylesheet" type="text/css" />
+  <style>
+    .footer-logo {
+      display: block;
+      width: 100px; /* 이미지의 크기 조정 */
+      margin: 0 auto; /* 가운데 정렬 */
+      cursor: pointer; /* 마우스 포인터 모양 변경 */
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Huh Yunjin</h1>
+  <div class="profile-table">
+    <table>
+      <tr>
+        <th>Profile</th>
+        <th>Category</th>
+        <th>Details</th>
+      </tr>
+      <tr>
+        <td rowspan="7" class="profile-image-cell"><img src="huh.webp" alt="Huh Yujin"></td>
+        <td>Full Name</td>
+        <td>Jennifer / Yunjin Huh</td>
+      </tr>
+      <tr>
+        <td>Born</td>
+        <td>October 8, 2001 (Age 22)</td>
+      </tr>
+      <tr>
+        <td>Place of Birth</td>
+        <td>Ilwon-dong, Gangnam-gu, Seoul, South Korea</td>
+      </tr>
+      <tr>
+        <td>Nationality</td>
+        <td>American</td>
+      </tr>
+      <tr>
+        <td>Ancestral Home</td>
+        <td>Ha Yang Heo Clan (河陽 許氏)</td>
+      </tr>
+      <!-- 이하 생략 -->
+    </table>
+  </div>
+
+  <script src="script.js"></script>
+
+  <div style="text-align: center; margin-top: 20px;">
+    <img class="footer-logo" src="르세라핌 로고.svg" alt="Go to index" onclick="goToIndex()" style="width: 150px; height: auto;">
+  </div>
+
+  <script>
+    function goToIndex() {
+      window.location.href = "index.html";
+    }
+  </script>
+
+</body>
+
+</html>
